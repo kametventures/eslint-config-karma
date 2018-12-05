@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-karma",
+  "version": "1.0.0",
+  "description": "The Karma ESLint",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "author": "Karma team",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-metrics": "^1.0.4",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "peerDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
