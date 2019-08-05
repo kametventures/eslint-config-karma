@@ -1,16 +1,16 @@
-# eslint-config-karma
+# eslint-config-qare
 
-The Karma EsLint rules
+The Qare EsLint rules
 
 ## Installation
 ```
-npm install eslint-config-karma eslint eslint-plugin-import eslint-config-airbnb --save-dev
+npm install eslint-config-qare eslint eslint-plugin-import eslint-config-airbnb --save-dev
 ```
 
 ## Set up a .eslintrc in your project
 ```
 {
-  "extends": "karma",
+  "extends": "qare",
   "rules" : {
   }
 }
