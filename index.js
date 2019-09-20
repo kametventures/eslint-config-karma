@@ -24,7 +24,9 @@ module.exports = {
     ],
     'flow-vars/define-flow-type': 1,
     'flow-vars/use-flow-type': 1,
+    'import/prefer-default-export': 0,
     'new-cap': 0,
+    'no-await-in-loop': 0,
     'no-param-reassign': [
       1,
       {
@@ -37,6 +39,7 @@ module.exports = {
         'args': 'none'
       }
     ],
+    'no-restricted-syntax': 0,
     'consistent-return': 0
   },
   globals: {
