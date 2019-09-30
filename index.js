@@ -6,9 +6,11 @@ module.exports = {
   ],
   plugins: [
     'flowtype',
-    'flow-vars'
+    'flow-vars',
+    'no-only-tests',
   ],
   rules: {
+    'no-only-tests/no-only-tests': 'error',
     'flowtype/require-parameter-type': 1,
     'flowtype/space-after-type-colon': [
       1,
