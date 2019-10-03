@@ -26,6 +26,7 @@ module.exports = {
     ],
     'flow-vars/define-flow-type': 1,
     'flow-vars/use-flow-type': 1,
+    'guard-for-in': 0,
     'import/prefer-default-export': 0,
     'new-cap': 0,
     'no-await-in-loop': 0,
