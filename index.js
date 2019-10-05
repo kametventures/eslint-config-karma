@@ -10,7 +10,7 @@ module.exports = {
     'no-only-tests',
   ],
   rules: {
-    'no-only-tests/no-only-tests': 'error',
+    'consistent-return': 0,
     'flowtype/require-parameter-type': 1,
     'flowtype/space-after-type-colon': [ 1, 'always' ],
     'flowtype/space-before-type-colon': [ 1, 'never' ],
@@ -21,10 +21,10 @@ module.exports = {
     'import/prefer-default-export': 0,
     'new-cap': 0,
     'no-await-in-loop': 0,
+    'no-only-tests/no-only-tests': 'error',
     'no-param-reassign': [ 1, { 'props': false } ],
-    'no-unused-vars': [ 1, { 'args': 'none' } ],
     'no-restricted-syntax': 0,
-    'consistent-return': 0,
+    'no-unused-vars': [ 1, { 'args': 'none' } ],
   },
   globals: {
     describe: true,
