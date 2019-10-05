@@ -59,7 +59,6 @@ module.exports = {
     mocha: true
   },
   parserOptions: {
-    ecmaVersion: 6,
     sourceType: 'module'
   },
   parser: 'babel-eslint',
