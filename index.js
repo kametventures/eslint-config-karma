@@ -12,6 +12,7 @@ module.exports = {
     'consistent-return': 0,
     'flowtype/define-flow-type': 1,
     'flowtype/require-parameter-type': 1,
+    'flowtype/require-valid-file-annotation': [ 2, 'always' ],
     'flowtype/space-after-type-colon': [ 1, 'always' ],
     'flowtype/space-before-type-colon': [ 1, 'never' ],
     'flowtype/type-id-match': [ 1, '^([A-Z][a-z0-9]+)+Type$' ],
