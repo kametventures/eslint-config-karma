@@ -19,6 +19,7 @@ module.exports = {
     'flowtype/use-flow-type': 1,
     'guard-for-in': 0,
     'import/prefer-default-export': 0,
+    'lines-between-class-members': 0,
     'new-cap': 0,
     'no-await-in-loop': 0,
     'no-only-tests/no-only-tests': 'error',
