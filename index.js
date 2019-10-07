@@ -26,6 +26,7 @@ module.exports = {
     'no-param-reassign': [ 1, { 'props': false } ],
     'no-restricted-syntax': 0,
     'no-unused-vars': [ 1, { 'args': 'none' } ],
+    'quote-props': ['error', 'as-needed', { keywords: false, unnecessary: true, numbers: true }],
   },
   globals: {
     describe: true,
