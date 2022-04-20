@@ -1,6 +1,8 @@
-# eslint-config-qare
+# [DEPRECATED] eslint-config-qare
 
-The Qare EsLint rules
+The Qare Legacy EsLint rules
+
+Use [the new linter](https://github.com/qare/lint) instead
 
 ## Contributing
 
